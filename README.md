@@ -1,4 +1,4 @@
- Projeto - 02: Sistema de Controle de Chamadas em uma Central
+DATA 10/06  Projeto - 02: Sistema de Controle de Chamadas em uma Central
 Curso: Ciência da Computação
 Disciplina: Estrutura de Dados / Programação em C
 Conceitos abordados: Fila, ponteiros, alocação dinâmica, manipulação de estruturas
