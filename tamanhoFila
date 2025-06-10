@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct Chamada {
+    char nome[50];
+    struct Chamada* prox;
+} Chamada;
+
+Chamada* inicio = NULL;
+Chamada* fim = NULL;
+
+// Função 5: Obter o tamanho da fila
+int tamanhoFila() {
+    int tamanho = 0;
+    Chamada* atual = inicio;
+    while (atual != NULL) {
+        tamanho++;
+        atual = atual->prox;
+    }
+    return tamanho;
+}
